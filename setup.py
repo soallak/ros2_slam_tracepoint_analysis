@@ -15,11 +15,12 @@ setup(
     zip_safe=True,
     maintainer='swallak',
     maintainer_email='sw.allak@gmail.com',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    description='SLAM tracepoints analyis tool<',
+    license='Apache License 2.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'process = slam_tracepoint_analysis.process:main'
         ],
     },
 )
